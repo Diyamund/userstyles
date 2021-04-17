@@ -1,0 +1,100 @@
+/* ==UserStyle==
+@name           USO Archive Dark
+@namespace      diyamund.github.io
+@version        1.0
+@description    Browse userstyles in the night.
+@author         diyamund
+==/UserStyle== */
+
+@-moz-document url-prefix("https://33kk.github.io/uso-archive") {
+body, .card {
+    background: #212529;
+    color: white;
+}
+
+.navbar {
+    background: #212529 !important;
+    border-bottom: 1px solid #353c42;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+
+.card {
+    border-color: #353c42;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+
+.form-control {
+    background: #212529;
+    border-color: #353c42;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    color: white;
+}
+
+.form-control:focus {
+    background: #212529;
+    color: white;
+    border-color: #3ea6ff;
+}
+
+.btn {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    background: #32383e;
+    border-color: #353c42;
+}
+
+.btn:hover {
+    background: #434b53;
+    border-color: #384046;
+}
+
+.card-body .btn {
+    margin-top: 5px;
+}
+
+.btn-primary {
+    background: #3ea6ff;
+    border-color: #49a8f9;
+}
+
+.btn-primary:hover {
+    background: #61b6ff;
+    border-color: #6bbaff;
+}
+
+.modal-content {
+    background: #212529
+}
+
+.modal-header, .modal-footer {
+    border-color: #353c42;
+}
+
+a {
+    color: #3ea6ff;
+}
+
+a:hover {
+    color: #3ea6ff;
+}
+
+.page-link {
+    background: #212529;
+    border-color: #353c42;
+    color: #3ea6ff;
+}
+
+.page-item.active .page-link {
+    background: #3ea6ff;
+    border-color: #49a8f9;
+}
+
+.page-link:hover {
+    background: #32383e;
+    border-color: #384046;
+    color: #3ea6ff;
+}
+
+.pagination {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+}
